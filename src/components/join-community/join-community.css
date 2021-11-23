@@ -1,0 +1,27 @@
+.join-community-control {
+    background-image: url('../../assets/joinus-bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join-community-control h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.join-community-control h1 span {
+    color: #c8ff00;
+}
+
+.join-community-control p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.5);
+}

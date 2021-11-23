@@ -1,0 +1,22 @@
+.top-items-control {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.top-items-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-items-header header {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-items-header header span {
+    color: #c8ff00;
+}

@@ -1,0 +1,35 @@
+.about-control {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.image-control img {
+    width: 100%;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-description header {
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.about-description p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.about-description p span {
+    color: #c8ff00;
+}
+
+.about-description header span {
+    color: #c8ff00;
+}

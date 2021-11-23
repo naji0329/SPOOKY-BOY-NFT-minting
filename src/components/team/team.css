@@ -1,0 +1,19 @@
+.team-control header {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.team-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.team-control header span {
+    color: #c8ff00;
+    text-shadow: 1px 0 20px rgb(200 255 0 / 31%)
+}
+

@@ -1,0 +1,32 @@
+.teammember-control {
+    width: 100%;
+}
+
+.teammember-control img {
+    width: 100%;
+}
+
+.teammember-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.teammember-name {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+}
+
+.teammember-occupation {
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #c8ff00;;
+}

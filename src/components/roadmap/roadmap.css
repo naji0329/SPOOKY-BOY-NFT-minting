@@ -1,0 +1,27 @@
+.roadmap-control header span {
+    color: #c8ff00;
+    text-shadow: 1px 0 20px rgb(200 255 0 / 31%)
+}
+
+.roadmap-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.roadmap-control header {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.roadmap-description {
+    font-size: 15px;
+    color: rgba(255,255,255,0.5);
+}
+
+.roadmap-control img {
+    width: 100%;
+}
