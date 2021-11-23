@@ -88,7 +88,7 @@ function Mint(){
                         </p>
                         <div className='number-control'>
                             <BsFileMinusFill color='white' size={40} onClick = {()=> minus_num()}/>
-                            <span>{mintNum}</span>
+                            <span id = "inputBox">{mintNum}</span>
                             <BsFilePlusFill color='white' size={40} onClick = {() => plus_num()}/>
                         </div>
                         {
