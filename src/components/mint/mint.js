@@ -20,7 +20,7 @@ function Mint(){
     const [claimingNft, setClaimingNft] = useState(false);
     const [mintNum, setMintNum] = useState(0)
     const claimNFTs = (_amount) => {
-        _amount = document.getElementById("inputBox").value;
+        _amount = document.getElementById("inputBox").textContent;
         if (_amount <= 0) {
             return;
         }
