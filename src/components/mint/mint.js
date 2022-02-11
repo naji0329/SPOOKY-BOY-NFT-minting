@@ -102,9 +102,9 @@ function Mint(){
                             getData();
                         }}>Connect</button>
                         {blockchain.errorMsg !== "" ? (
-                            <div style={{ textAlign: "center", fontSize: 20, color: "white"}}>
+                            <span style={{ textAlign: "center", fontSize: 12, color: "white"}}>
                                     {blockchain.errorMsg}
-                                </div>
+                                </span>
                             
                         ) : null}
                         </div>
